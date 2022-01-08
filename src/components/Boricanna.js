@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
-import Navbar from './components/Navbar.js'
+import React from 'react'
 
-export default class Boricanna extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
-}
+
+const Boricanna = () => {
+    return (
+        <div>
+            
+        </div>
+    )
+};
+
+export default Boricanna;
+
