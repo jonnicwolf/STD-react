@@ -36,4 +36,6 @@ const Brands = () => {
             
         </div>
     )
-}
+};
+
+export default Brands;
