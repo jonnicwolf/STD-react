@@ -5,28 +5,30 @@ const Brands = () => {
     return (
         <div>
             <Link to='https://kurvana.com/'>
-                <img src='src/assets/Kurvana.png' alt='kurvana'/>
+                <img src='src/assets/Kurvana.png' alt=''/>
             </Link>
-            <Link to='https://levelexperience.com/' alt='level experience'>
+            <Link to='https://levelexperience.com/' alt=''>
                 <img src='src/assets/Level.png'/>
             </Link>
-            <Link to='https://www.monogramcompany.com/' alt='monogram'>
+            <Link to='https://www.monogramcompany.com/' alt='true'>
                 <img src='src/assets/Monogram.png'/>
             </Link>
-            <Link to='https://www.lowellfarms.com/cannabis' alt='lowell farms'>
+            <Link to='https://www.lowellfarms.com/cannabis' alt='true'>
                 <img src='src/assets/Lowell Farms.png'/>
             </Link>
-            <Link to='https://dosist.com/' alt='dosist'>
+            <Link to='https://dosist.com/' alt='true'>
                 <img src='src/assets/Dosist.png'/>
             </Link>
-            <Link to='https://www.houseplant.com/' alt='houseplant'>
+            <Link to='https://www.houseplant.com/' alt='true'>
                 <img src='src/assets/houseplant.png'/>
             </Link>            
-            <Link to='https://williesreserve.com/' alt='willies reserve'>
+            <Link to='https://williesreserve.com/' alt='true'>
                 <img src='src/assets/Willys_Reserve.png'/>
             </Link>
-            <Link to='https://www.marleynatural.com/' alt='marley natural'>
-                <img src='src/assets/Marley Natural.png'/>
+            <Link to='https://www.marleynatural.com/' alt='true'>
+                <img src='src/assets/Marley Natural.png'
+                     height='100'
+                     width='100'/>
             </Link>
         </div>
     )
