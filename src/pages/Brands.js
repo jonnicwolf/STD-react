@@ -4,7 +4,9 @@ import {Link} from 'react-router-dom';
 const Brands = () => {
     return (
         <div>
-            <Link to='https://kurvana.com/'>
+            <a onClick=''></a>
+
+            {/* <Link to='https://kurvana.com/'>
                 <img src='src/assets/Kurvana.png' alt=''/>
             </Link>
             <Link to='https://levelexperience.com/' alt=''>
@@ -29,7 +31,7 @@ const Brands = () => {
                 <img src='src/assets/Marley Natural.png'
                      height='100'
                      width='100'/>
-            </Link>
+            </Link> */}
         </div>
     )
 };

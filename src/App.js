@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      
+       
       <Routes>
         <Route path='/brands' element={<Brands/>}/>
         {/* <Route path='' element={</>}>
