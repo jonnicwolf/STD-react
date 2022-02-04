@@ -1,7 +1,7 @@
 const Careers=()=>{
     return (
-        <div>
-            yoyo
+        <div style={{color: 'black'}}>
+            laskjd
         </div>
     )
 };
