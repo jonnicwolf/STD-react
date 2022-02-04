@@ -17,8 +17,8 @@ function App() {
        
       <Routes>
         <Route exact path='/' component={Home}/>
-        <Route path ='/brands' component={Brands}/>
         <Route path='/boricana' component={Boricana}/>
+        <Route path ='/brands' component={Brands}/>
         <Route path='/sustainability' component={Sustainability}/>
         <Route path='/company' component={Company}/>
         <Route path='/careers' component={Careers}/>

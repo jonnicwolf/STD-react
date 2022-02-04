@@ -11,13 +11,13 @@ const Navbar = ()=> {
           </Link>          
         </li>                  
         <li>
-          <Link to='/brands'>
-            Brands
+          <Link to='/boricana'>
+            Boricana
           </Link>          
         </li>                  
         <li>
-          <Link to='/boricana'>
-            Boricana
+          <Link to='/brands'>
+            Brands
           </Link>          
         </li>                  
         <li>
