@@ -7,7 +7,9 @@ const Navbar = ()=> {
       <ul>        
         <li>
           <Link to='/'>
-            <img src="src/photo_assets/Ads-n-logos/full logo everything wide@300x.png"/>
+            <img 
+              src="src/photo_assets/Ads-n-logos/full logo everything wide@300x.png"
+              alt='scd-logo'/>
           </Link>          
         </li>                  
         <li>
