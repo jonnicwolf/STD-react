@@ -5,7 +5,7 @@ import Navbar from './components/Navbar.js'
 
 import Home from './pages/Home.js';
 import Brands from './pages/Brands.js';
-import Boricana from './pages/Boricana.js';
+import Boricanna from './pages/Boricanna.js';
 import Sustainability from './pages/Sustainability.js';
 import Company from './pages/Company.js';
 import Careers from './pages/Careers.js';
@@ -17,7 +17,7 @@ function App() {
        
       <Routes>
         <Route exact path='/' element={Home}/>
-        <Route path='/boricana' element={Boricana}/>
+        <Route path='/boricanna' element={Boricanna}/>
         <Route path ='/brands' element={Brands}/>
         <Route path='/sustainability' element={Sustainability}/>
         <Route path='/company' element={Company}/>

@@ -13,8 +13,8 @@ const Navbar = ()=> {
           </Link>          
         </li>                  
         <li>
-          <Link to='/boricana'>
-            Boricana
+          <Link to='/boricanna'>
+            Boricanna
           </Link>          
         </li>                  
         <li>
