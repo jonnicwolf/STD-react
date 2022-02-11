@@ -1,13 +1,10 @@
 import React from 'react'
 
-
 const Boricanna = () => {
     return (
-        <>
-        <div>
-            yoyoyo
-        </div>
-        </>
+    <div>
+        yoyoyoyoyoyoyoyo
+    </div>        
     )
 };
 

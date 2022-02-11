@@ -16,12 +16,12 @@ function App() {
       <Navbar />
        
       <Routes>
-        <Route exact path='/' component={Home}/>
-        <Route path='/boricana' component={Boricana}/>
-        <Route path ='/brands' component={Brands}/>
-        <Route path='/sustainability' component={Sustainability}/>
-        <Route path='/company' component={Company}/>
-        <Route path='/careers' component={Careers}/>
+        <Route exact path='/' element={Home}/>
+        <Route path='/boricana' element={Boricana}/>
+        <Route path ='/brands' element={Brands}/>
+        <Route path='/sustainability' element={Sustainability}/>
+        <Route path='/company' element={Company}/>
+        <Route path='/careers' element={Careers}/>
       </Routes>
     </div>
   );
