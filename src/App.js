@@ -16,12 +16,12 @@ function App() {
       <Navbar />
        
       <Routes>
-        <Route exact path='/' element={Home}/>
-        <Route path='/boricanna' element={Boricanna}/>
-        <Route path ='/brands' element={Brands}/>
-        <Route path='/sustainability' element={Sustainability}/>
-        <Route path='/company' element={Company}/>
-        <Route path='/careers' element={Careers}/>
+        <Route exact path='/' element={<Home/>}/>
+        <Route path='/boricanna' element={<Boricanna/>}/>
+        <Route path ='/brands' element={<Brands/>}/>
+        <Route path='/sustainability' element={<Sustainability/>}/>
+        <Route path='/company' element={<Company/>}/>
+        <Route path='/careers' element={<Careers/>}/>
       </Routes>
     </div>
   );

@@ -1,9 +1,11 @@
-import React from 'react'
+import Navbar from "../components/Navbar.js"
 
 const Boricanna = () => {
     return (
         <div>
-            yoyoyoyoyoyoyoyo
+            <p>
+                yoyoyo
+            </p>
         </div> 
     )
 };
