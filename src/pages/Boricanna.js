@@ -22,9 +22,7 @@ const Boricanna = () => {
     return (
         <div>
             <BannerCarousel slides={slides}/>
-            {/* <p>
-                yoyoyo
-            </p> */}
+            <p>Boricanna</p>
         </div> 
     )
 };
