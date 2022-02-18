@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar.js"
-import BannerCarousel from "../components/BannerCarousel.js";
+import Carousel from "../components/Carousel.js";
 const slides = [
     {
         image:
@@ -17,11 +16,11 @@ const slides = [
         image:
         "https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?ixlib=rb-1.2.1"
       }
-]
+] //throw this in the back end when its up****
 const Boricanna = () => {
     return (
         <div>
-            <BannerCarousel slides={slides}/>
+            <Carousel slides={slides}/>
             <p>Boricanna</p>
         </div> 
     )
