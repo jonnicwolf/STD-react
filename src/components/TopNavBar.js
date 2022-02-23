@@ -18,44 +18,41 @@ const TopNavBar = ()=> {
 
         <ul>                
           <li>
-            {/* <Link to='/'>
-              <img 
-                src="src/photo_assets/Ads-n-logos/full logo everything wide@300x.png"
-                alt='scd-logo'/>
-            </Link>           */}
-            
+            {/* LogoTray -> SCD-Initials * SCD-Logo * Stoned Cold Dreamery */}
             <LogoTray />
-            
-
           </li>                  
+
           <li>
             <Link to='/boricanna'>
               Boricanna
             </Link>          
-          </li>                  
+          </li>              
+
           <li>
             <Link to='/brands'>
               Brands
             </Link>          
-          </li>                  
+          </li>      
+
           <li>
             <Link to='/sustainability'>
               Sustainability
             </Link>          
-          </li>                  
+          </li>
+
           <li>
             <Link to='/company'>
               Company
             </Link>          
-          </li>           
+          </li>
+
           <li>
             <Link to='/careers'>
               Careers
             </Link>          
-          </li>    
+          </li>              
         </ul> 
-      </div>
-      {/* </Logos>       */}
+      </div>      
     </nav>
   )
 };
