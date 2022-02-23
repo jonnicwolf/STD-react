@@ -4,12 +4,12 @@ import {Link} from 'react-router-dom';
 const Brands = () => {
     return (
         <div>
-            <a onClick=''></a>
+            {/* <a onClick=''></a> */}
 
-            {/* <Link to='https://kurvana.com/'>
+            <Link to='https://kurvana.com/'>
                 <img src='src/assets/Kurvana.png' alt=''/>
             </Link>
-            <Link to='https://levelexperience.com/' alt=''>
+            {/* <Link to='https://levelexperience.com/' alt='who'>
                 <img src='src/assets/Level.png'/>
             </Link>
             <Link to='https://www.monogramcompany.com/' alt='true'>
