@@ -12,10 +12,8 @@ import  LogoTray  from './LogoTray.js';
 
 const TopNavBar = ()=> {
   return (
-    <nav>
-      {/* <Logos> */}
-        <div>
-
+    <nav>      
+      
         <ul>                
           <li>
             {/* LogoTray -> SCD-Initials * SCD-Logo * Stoned Cold Dreamery */}
@@ -52,7 +50,7 @@ const TopNavBar = ()=> {
             </Link>          
           </li>              
         </ul> 
-      </div>      
+      
     </nav>
   )
 };

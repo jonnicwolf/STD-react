@@ -1,6 +1,5 @@
-import {} from 'react-router-dom';
-// import { Logos } from "../styledComponents/TopMenu.js";
-import styled from "styled-components";
+import React from 'react';
+import './LogoTray.css'
 
 /*.##........#######...######....#######...######.
   .##.......##.....##.##....##..##.....##.##....##
@@ -10,44 +9,23 @@ import styled from "styled-components";
   .##.......##.....##.##....##..##.....##.##....##
   .########..#######...######....#######...######.*/
 import StonedColdDreamery from '../photo_assets/Logos/StonedColdDreamery.png';
-// import SCD_Cone from '../photo_assets/Logos/SCD_Cone.png';
-
-const Logos = styled.div`
-  list-style: none;
-  display: flexbox;  
-  // flex-flow: row wrap;  
-  // justify-content: flex-start;
-`;
-
-const Cone = styled.button`
-    width: 2px;
-    height: 1px;
-`
+import SCD_Cone from '../photo_assets/Logos/SCD_Cone.png';
 
 const LogoTray=()=> {
     return (
-        <Logos>
-            <ul>
+            <ul className='logo-container'>
                 <li>
-                    <button>
-                        <Cone>
-                                <img src={StonedColdDreamery} alt=""/>
-                        </Cone>
-                    </button>                   
-                    SCD-Initials
+                    <button className='logo-button'>
+                        <img src={SCD_Cone} alt=""height='30' width='100'/>
+                    </button>
                 </li>
+
                 <li>
-                    {/* < to='/'><img src={SCD_Cone} alt=""/></> */}
-                    SCD-cone
-                </li>
-                <li>
-                <button>
-                    {/* <img src="" alt=""/> */}
-                    Stoned Cold Dreamery
-                </button>                    
-                </li>
+                    <button className='logo-button'>
+                            <img src={StonedColdDreamery} alt="" height='30' width='100'/>                            
+                    </button>
+                </li>                                
             </ul>
-        </Logos> 
     )
 };
 
