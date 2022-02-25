@@ -1,54 +1,67 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+
+/*
+..######...#######..##.....##.########...#######..##....##.########.##....##.########..######.
+.##....##.##.....##.###...###.##.....##.##.....##.###...##.##.......###...##....##....##....##
+.##.......##.....##.####.####.##.....##.##.....##.####..##.##.......####..##....##....##......
+.##.......##.....##.##.###.##.########..##.....##.##.##.##.######...##.##.##....##.....######.
+.##.......##.....##.##.....##.##........##.....##.##..####.##.......##..####....##..........##
+.##....##.##.....##.##.....##.##........##.....##.##...###.##.......##...###....##....##....##
+..######...#######..##.....##.##.........#######..##....##.########.##....##....##.....######.
+*/
 import  LogoTray  from './LogoTray.js';
 
-// import styled from "styled-components";
-// const Logos = styled.div`
-//   list-style: none;
-//   display: flexbox;  
-//   // flex-flow: row wrap;  
-//   // justify-content: flex-start;
-// `;
+/*
+..######..########.##....##.##.......########..######.
+.##....##....##.....##..##..##.......##.......##....##
+.##..........##......####...##.......##.......##......
+..######.....##.......##....##.......######....######.
+.......##....##.......##....##.......##.............##
+.##....##....##.......##....##.......##.......##....##
+..######.....##.......##....########.########..######.
+*/
+import './TopNavBar.css';
+
 
 const TopNavBar = ()=> {
   return (
-    <nav>      
-      
-        <ul>                
-          <li>
-            {/* LogoTray -> SCD-Initials * SCD-Logo * Stoned Cold Dreamery */}
+    <nav className='topnav-masterContainer'>            
+        <ul className='topnav-container'>                
+          <li>            
             <LogoTray />
           </li>                  
 
           <li>
-            <Link to='/boricanna'>
+            <Link to='/boricanna' className='topnav-button'>
               Boricanna
             </Link>          
           </li>              
 
           <li>
-            <Link to='/brands'>
+            <Link to='/brands' className='topnav-button'>
               Brands
             </Link>          
           </li>      
 
           <li>
-            <Link to='/sustainability'>
+            <Link to='/sustainability' className='topnav-button'>
               Sustainability
             </Link>          
           </li>
 
           <li>
-            <Link to='/company'>
+            <Link to='/company' className='topnav-button'>
               Company
             </Link>          
           </li>
 
           <li>
-            <Link to='/careers'>
+            <Link to='/careers' className='topnav-button'>
               Careers
             </Link>          
           </li>              
+          
         </ul> 
       
     </nav>

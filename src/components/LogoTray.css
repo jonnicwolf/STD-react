@@ -1,9 +1,10 @@
 .logo-container {
     display:flex;
     flex-direction: flex-start;
-
+    list-style-type: none;
+    align-self: flex-start;
 }
 
 .logo-button   {    
-    border: yellow;
+    border: none;    
 }

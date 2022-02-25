@@ -1,0 +1,11 @@
+.brand-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;    
+    gap: 150px;
+};
+
+.brand-menu-button {    
+    text-decoration: none;
+}

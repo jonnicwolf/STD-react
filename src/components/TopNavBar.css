@@ -1,0 +1,10 @@
+.topnav-container {
+    display: flex;
+    flex-direction: flex-start;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.topnav-button {
+    text-decoration: none;
+}
