@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './LogoTray.css'
 
 /*.##........#######...######....#######...######.
@@ -8,24 +9,24 @@ import './LogoTray.css'
   .##.......##.....##.##....##..##.....##.......##
   .##.......##.....##.##....##..##.....##.##....##
   .########..#######...######....#######...######.*/
-import StonedColdDreamery from '../photo_assets/Logos/StonedColdDreamery.png';
+import SCD_name from '../photo_assets/Logos/SCD_name.png';
 import SCD_Cone from '../photo_assets/Logos/SCD_Cone.png';
 
 const LogoTray=()=> {
     return (
-            <ul className='logo-container'>
-                <li>
-                    <button className='logo-button'>
-                        <img src={SCD_Cone} alt=""height='30' width='100'/>
-                    </button>
-                </li>
+        <ul className='logo-container'>
+            <li>
+                <Link to='/'className='logo-Link'>
+                    <img src={SCD_Cone} alt="" className='logo-img' className='logo-img-cone'/>
+                </Link>
+            </li>
 
-                <li>
-                    <button className='logo-button'>
-                            <img src={StonedColdDreamery} alt="" height='30' width='100'/>                            
-                    </button>
-                </li>                                
-            </ul>
+            <li>
+                <Link to='/' className='logo-Link'>
+                        <img className='logo-img' className='logo-img-name' src={SCD_name} alt=""/>                            
+                </Link>
+            </li>                                
+        </ul>
     )
 };
 
