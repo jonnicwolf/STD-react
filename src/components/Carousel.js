@@ -17,7 +17,12 @@ const Carousel = ({ slides })=> {
                 return (
                     <div key={index}>
                         {index === current && <SlideImage src={slide.image} alt=''/>}
+                        <span key={index}>
+                            {index === current && <span>{slide.info}</span>}
+                        </span>    
                     </div>
+                    
+
                 );
             })}
         </StyledSlider>

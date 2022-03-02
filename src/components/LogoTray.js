@@ -15,17 +15,16 @@ import SCD_Cone from '../photo_assets/Logos/SCD_Cone.png';
 const LogoTray=()=> {
     return (
         <ul className='logo-container'>
-            <li>
-                <Link to='/'className='logo-Link'>
-                    <img src={SCD_Cone} alt="" className='logo-img' className='logo-img-cone'/>
-                </Link>
-            </li>
-
-            <li>
+            <li className='logo-child'>
                 <Link to='/' className='logo-Link'>
                         <img className='logo-img' className='logo-img-name' src={SCD_name} alt=""/>                            
                 </Link>
-            </li>                                
+            </li>     
+            <li className='logo-child'>
+                <Link to='/'className='logo-Link'>
+                    <img src={SCD_Cone} alt="" className='logo-img' id='logo-img-cone'/>
+                </Link>
+            </li>                                      
         </ul>
     )
 };

@@ -5,6 +5,7 @@
     justify-content: space-evenly;
 }
 
-.topnav-button {
-    text-decoration: none;
+.topnav-child-logotray {
+    align-self: flex-start;
 }
+
