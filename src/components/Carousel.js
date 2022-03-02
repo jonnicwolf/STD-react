@@ -18,11 +18,9 @@ const Carousel = ({ slides })=> {
                     <div key={index}>
                         {index === current && <SlideImage src={slide.image} alt=''/>}
                         <span key={index}>
-                            {index === current && <span>{slide.info}</span>}
-                        </span>    
+                            {index === current && <span>{slide.info}</span>}                        
+                        </span>                         
                     </div>
-                    
-
                 );
             })}
         </StyledSlider>
