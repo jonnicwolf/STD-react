@@ -1,0 +1,14 @@
+.extras-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.extras-item {
+    height: 30px;
+    width: 30px;
+}
+
+
