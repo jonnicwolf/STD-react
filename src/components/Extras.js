@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import './Extras.css'
 
@@ -8,8 +9,10 @@ const Extras = ({items}) => {
         <ul className='extras-container'>
             {items.map((item,idx) => (
                 <li className='extras-child' key={idx}>
+                  <Link to='/'>
                     <img className='extras-item' src={item.item} alt=""/>
-                    <p>{item.info}</p>
+                    <p>{item.info}</p>                  
+                  </Link>
                 </li>
             ))}
         </ul>
