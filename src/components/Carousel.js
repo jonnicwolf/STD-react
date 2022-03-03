@@ -19,10 +19,7 @@ const Carousel = ({ slides })=> {
                         {index === current && <SlideImage src={slide.image} alt=''/>}
                         <span key={index}>
                             {index === current && <span>{slide.info}</span>}                        
-                        </span>                         
-                        <button key={index}>
-                            {index === current && <div>Buy Now</div>}
-                        </button>
+                        </span>                                                 
                     </div>
                 );
             })}
