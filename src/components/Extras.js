@@ -9,7 +9,7 @@ const Extras = ({items}) => {
         <ul className='extras-container'>
             {items.map((item,idx) => (
                 <li className='extras-child' key={idx}>
-                  <Link to='/'>
+                  <Link to='/extras'>
                     <img className='extras-item' src={item.item} alt=""/>
                     <p>{item.info}</p>                  
                   </Link>

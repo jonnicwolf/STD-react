@@ -1,15 +1,21 @@
 import React from 'react'
-
-const items  = [
-    {item:'' , image:''},
-    {item:'' , image:''},
-    {item:'' , image:''},
-  ]//back end smokables
-  
-
+import { Link } from 'react-router-dom'
+ //useeffect the axios call to back end ?
 const Pieces = (items) => {
   return (
-    <div>Pieces</div>
+    <div>
+        Pieces
+        <ul class="pieces-container">
+        {items.map((item,idx) => (
+                <li className='pieces-child' key={idx}>
+                  <Link to='/'>
+                    <img className='pieces-item' src={item.image} alt=""/>
+                    <p>{item.item}</p>                  
+                  </Link>
+                </li>
+            ))}
+        </ul>
+    </div>
   )
 }
 
