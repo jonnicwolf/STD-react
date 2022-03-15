@@ -31,6 +31,7 @@ import Boricanna from './pages/Boricanna.js';
 import Sustainability from './pages/Sustainability.js';
 import Company from './pages/Company.js';
 import Careers from './pages/Careers.js';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -53,7 +54,11 @@ function App() {
         <Route path='/sustainability' element={<Sustainability/>}/>
         <Route path='/company' element={<Company/>}/>
         <Route path='/careers' element={<Careers/>}/>
+
+        {/* Cart */}
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
+
     </div>
   );
 };

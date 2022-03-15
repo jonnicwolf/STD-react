@@ -56,6 +56,11 @@ const TopNavBar = ()=> {
             Careers
           </Link>          
         </li>                        
+        <li className='topnav-child'>            
+          <Link to='/cart' className='topnav-button'>
+            🛒
+          </Link>          
+        </li>                        
       </ul>       
     </nav>
   )
