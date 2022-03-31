@@ -1,83 +1,72 @@
 [
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
+        "item": "Boricanna King Pre-roll No.1",
+        "price" : 2.50,
+        "stock": 1000,
+        "description": "Boricanna house strain No.1",
+        "strain": "Trujio Alto Gold",
+        "size": "King",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F38304497%2Fstock-photo-marijuana-joint.html&psig=AOvVaw2ZguZl2pcelC_3VUbzs3Ht&ust=1648834363381000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDilPPw8PYCFQAAAAAdAAAAABAD",
+        "species": "Indica-dominant hybrid"
     },
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
+        "item": "Boricanna King Pre-roll No.2",
+        "price" : 2.50,
+        "stock": 1000,
+        "description": "Boricanna house strain No.2",
+        "strain": "Boriqua OG",
+        "size": "King",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F38304497%2Fstock-photo-marijuana-joint.html&psig=AOvVaw2ZguZl2pcelC_3VUbzs3Ht&ust=1648834363381000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDilPPw8PYCFQAAAAAdAAAAABAD",
+        "species": "Sativa-dominant hybrid"
     },
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
+        "item": "Boricanna King Pre-roll No.3",
+        "price" : 2.50,
+        "stock": 1000,
+        "description": "Boricanna house strain No.3",
+        "strain": "Bonita Bandera",
+        "size": "King",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F38304497%2Fstock-photo-marijuana-joint.html&psig=AOvVaw2ZguZl2pcelC_3VUbzs3Ht&ust=1648834363381000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDilPPw8PYCFQAAAAAdAAAAABAD",
+        "species": "Sativa"
     },
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
+        "item": "Boricanna grow No.1",
+        "price" : 4.00,
+        "stock": 1000,
+        "description": "Blue Dream King roll",
+        "strain": "Blue Dream",
+        "size": "King",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F38304497%2Fstock-photo-marijuana-joint.html&psig=AOvVaw2ZguZl2pcelC_3VUbzs3Ht&ust=1648834363381000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDilPPw8PYCFQAAAAAdAAAAABAD",
+        "species": "Indica"
     },
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
+        "item": "Boricanna grow No.2",
+        "price" : 4.00,
+        "stock": 1000,
+        "description": "Girl Scout Cookies King roll",
+        "strain": "Girl Scout Cookies",
+        "size": "King",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F38304497%2Fstock-photo-marijuana-joint.html&psig=AOvVaw2ZguZl2pcelC_3VUbzs3Ht&ust=1648834363381000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDilPPw8PYCFQAAAAAdAAAAABAD",
+        "species": "Indica-dominant hybrid"
     },
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
+        "item": "Boricanna grow No.3",
+        "price" : 4.00,
+        "stock": 1000,
+        "description": "Sherblato King roll",
+        "strain": "Sherblato",
+        "size": "King",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F38304497%2Fstock-photo-marijuana-joint.html&psig=AOvVaw2ZguZl2pcelC_3VUbzs3Ht&ust=1648834363381000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDilPPw8PYCFQAAAAAdAAAAABAD",
+        "species": "Hybrid"
     },
     {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
+        "item": "Birthday Cake King roll",
+        "price" : 4.00,
+        "stock": 1000,
+        "description": "",
         "strain": "blah",
         "size": "blah",
-        "image": "blah"
-    },
-    {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
-    },
-    {
-        "item": "blah",
-        "price" : 0,
-        "stock": 0,
-        "description": "blah",
-        "strain": "blah",
-        "size": "blah",
-        "image": "blah"
-    }
+        "image": "blah",
+        "species": "blah"
+    }    
 ]
