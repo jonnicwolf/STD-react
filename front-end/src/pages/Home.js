@@ -13,6 +13,10 @@ import mockup4 from '../photo_assets/Flavours/mockup4.jpg';
 import mockup5 from '../photo_assets/Flavours/mockup5.jpg';
 import mockup6 from '../photo_assets/Flavours/mockup6.jpg';
 
+import stock_bong from '../photo_assets/Logos/stock_bong.jpeg';
+import stock_joint from '../photo_assets/Logos/stock_grinder.jpeg';
+import stock_grinder from '../photo_assets/Logos/stock_joint.jpeg';
+
 const slides = [
     {image: mockup4,
     info:`Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue dream is 18% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers. In terms of flavor, Blue Dream is reported to smell and taste like sweet berries.`},
@@ -23,9 +27,9 @@ const slides = [
 ] //throw this in the back end when its up****
 
 const items  = [
-    {item:mockup4, info: 'mockup4'},
-    {item:mockup5, info: 'mockup5'},
-    {item:mockup6, info: 'mockup6'},
+    {item:stock_bong, info: 'Tokes'},
+    {item:stock_joint, info: 'Smokes'},
+    {item:stock_grinder, info: '& More'},    
 ]
 
 const Home=()=>{
