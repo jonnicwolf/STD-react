@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import { SlideImage, StyledSlider } from '../styledComponents/SlideContainer';
 import { FaHandPointLeft,FaHandPointRight } from 'react-icons/fa'
 
+import './Carousel.css'
+
 const Carousel = ({ slides })=> {
     const [current, setCurrent] = useState(0);
     const len = slides.length;
@@ -16,7 +18,9 @@ const Carousel = ({ slides })=> {
             {slides.map((slide, index) => {                
                 return (
                     <div key={index}>
-                        {index === current && <SlideImage src={slide.image} alt=''/>}
+                        <span className='carouselSlides'>
+                            {index === current && <SlideImage src={slide.image} alt=''/>}
+                        </span>
                         <span key={index}>
                             {index === current && <span>{slide.info}</span>}                        
                         </span>                                                 

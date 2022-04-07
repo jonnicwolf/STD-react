@@ -26,9 +26,9 @@ const slides = [
 ] //throw this in the back end when its up****
 
 const items  = [
-    {item:stock_bong, info: 'Tokes'},
-    {item:stock_joint, info: 'Smokes'},
-    {item:stock_grinder, info: '& More'},    
+    {item: stock_bong, info: 'Tokes'},
+    {item: stock_joint, info: 'Smokes'},
+    {item: stock_grinder, info: '& More'},    
 ]
 
 const Home=()=>{
