@@ -4,16 +4,25 @@ import { Link } from 'react-router-dom';
 import './BrandMenu.css';
 //on hover change buttons to change background and show literature
 
+import Dosist from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/Dosist.png';
+import Houseplant from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/Houseplant.png';
+import Kurvana from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/Kurvana.png';
+import LeafsBySnoop from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/LeafsBySnoop.png';
+import Level from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/Level.png';
+import LowellFarms from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/LowellFarms.png';
+import MarleyNatural from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/LowellFarms.png';
+import Monogram from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/Monogram.png';
+import WillysReserve from '/Users/jonnarine/projects/SCD-react/front-end/src/photo_assets/Brands/WillysReserve.png';
+
 const BrandMenu = () => {
   return (
     <div>
-        <ul className="brand-menu-container">
+        <ul className="brand-menu-container">  
             <li>
                 <Link 
                     to='/boricanna'
                     className="brand-menu-button">
-                    <img src="" alt="Boricanna"/>
-                    <div>Boricanna</div>
+                    <img src="" alt='Boricanna'/>
                 </Link>
             </li>
 
@@ -21,8 +30,7 @@ const BrandMenu = () => {
                 <Link 
                     to='/brands'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/Marley Natural.png" alt="Marley Natural"/>
-                    <div>Marley Natural</div>
+                    <img src={Dosist}/>                    
                 </Link>
             </li>
 
@@ -30,8 +38,7 @@ const BrandMenu = () => {
                 <Link
                     to='/brands'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/houseplant.png" alt="Houseplant"/>
-                    <div>HousePlant</div>
+                    <img src={Kurvana} alt="Kurvana"/>
                 </Link>
             </li>
 
@@ -39,8 +46,7 @@ const BrandMenu = () => {
                 <Link 
                     to='/brands'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/Dosist.png" alt="Dosist"/>
-                    <div>Dosist</div>
+                    <img src={Houseplant} alt="Houseplant"/>
                 </Link>
             </li>
 
@@ -48,8 +54,7 @@ const BrandMenu = () => {
                 <Link
                     to='/brands'
                     className="brand-menu-button">
-                    <img src="" alt=""/>
-                    <div>Kurvana</div>
+                    <img src={LeafsBySnoop} alt="Leafs By Snoop"/>
                 </Link>
             </li>
 
@@ -57,8 +62,7 @@ const BrandMenu = () => {
                 <Link 
                     to='/brands'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/Kurvana.png" alt="Leafs By Snoop"/>
-                    <div>Leafs By Snoop</div>
+                    <img src={Level} alt='Level'/>
                 </Link>
             </li>
 
@@ -66,8 +70,7 @@ const BrandMenu = () => {
                 <Link
                     to='/'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/Level.png" alt="Level"/>
-                    <div>Level</div>
+                    <img src={LowellFarms} alt="Lowell Farms"/>
                 </Link>
             </li>
 
@@ -75,8 +78,7 @@ const BrandMenu = () => {
                 <Link 
                     to='/'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/Lowell Farms.png" alt="Lowell Farms"/>
-                    <div>Lowell Farms</div>
+                    <img src={MarleyNatural} alt="Marley Natural"/>
                 </Link>
             </li>
 
@@ -84,13 +86,21 @@ const BrandMenu = () => {
                 <Link 
                     to='/'
                     className="brand-menu-button">
-                    <img src="front-end/src/photo_assets/Brands/Willys_Reserve.png" alt="Willy's Reserve"/>
-                    <div>Willy's Reverse</div>
+                    <img src={Monogram} alt="Monogram"/>
+                </Link>
+            </li>
+
+            <li>
+                <Link 
+                    to='/'
+                    className="brand-menu-button">
+                    <img src={WillysReserve} alt="Willy's Reserve"/>
                 </Link>
             </li>
         </ul>            
     </div>
   )
 };
+
 
 export default BrandMenu;
