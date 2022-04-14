@@ -28,7 +28,7 @@ const BrandMenu = () => {
 
             <li>
                 <Link 
-                    to='/brands'
+                    to={{pathname: 'https://dosist.com/'}}
                     className="brand-menu-button">
                     <img src={Dosist}/>                    
                 </Link>
@@ -36,7 +36,8 @@ const BrandMenu = () => {
 
             <li>
                 <Link
-                    to='/brands'
+                    to={{pathname: 'https://kurvana.com/'}}
+                   
                     className="brand-menu-button">
                     <img src={Kurvana} alt="Kurvana"/>
                 </Link>
@@ -44,23 +45,17 @@ const BrandMenu = () => {
 
             <li>
                 <Link 
-                    to='/brands'
+                    to= {{pathname: 'https://www.houseplant.com/'}}
                     className="brand-menu-button">
                     <img src={Houseplant} alt="Houseplant"/>
                 </Link>
             </li>
 
-            <li>
-                <Link
-                    to='/brands'
-                    className="brand-menu-button">
-                    <img src={LeafsBySnoop} alt="Leafs By Snoop"/>
-                </Link>
-            </li>
+            
 
             <li>
                 <Link 
-                    to='/brands'
+                    to={{pathname: 'https://levelexperience.com/'}}
                     className="brand-menu-button">
                     <img src={Level} alt='Level'/>
                 </Link>
@@ -68,7 +63,7 @@ const BrandMenu = () => {
 
             <li>
                 <Link
-                    to='/'
+                    to={{pathname: 'https://www.lowellfarms.com/cannabis'}}
                     className="brand-menu-button">
                     <img src={LowellFarms} alt="Lowell Farms"/>
                 </Link>
@@ -76,7 +71,7 @@ const BrandMenu = () => {
 
             <li>
                 <Link 
-                    to='/'
+                    to={{pathname: 'https://www.marleynatural.com/'}}
                     className="brand-menu-button">
                     <img src={MarleyNatural} alt="Marley Natural"/>
                 </Link>
@@ -84,7 +79,7 @@ const BrandMenu = () => {
 
             <li>
                 <Link 
-                    to='/'
+                    to={{pathname: 'https://www.monogramcompany.com/'}}
                     className="brand-menu-button">
                     <img src={Monogram} alt="Monogram"/>
                 </Link>
@@ -92,7 +87,7 @@ const BrandMenu = () => {
 
             <li>
                 <Link 
-                    to='/'
+                    to={{pathname: 'https://williesreserve.com/'}}
                     className="brand-menu-button">
                     <img src={WillysReserve} alt="Willy's Reserve"/>
                 </Link>
