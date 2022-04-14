@@ -1,27 +1,40 @@
 import Carousel from "../components/Carousel.js";
+
+import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg';
+import Boricanna_logo_gold_nw from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg';
+import Boricanna_streetSign from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg';
+import Boricanna_innerPack_yt from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg';
+// import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg'
+// import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg'
+// import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg'
+// import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg'
+// import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg'
+// import Boricanna_webBanner from '../photo_assets/Boricanna/Insta photos/Boricanna_webBanner.jpg'
 const slides = [
     {
         image:
-          "https://images.unsplash.com/photo-1546190255-451a91afc548?ixlib=rb-1.2.1",
-        info: `boricanna_1`
+          Boricanna_innerPack_yt,
+        info: `Boricanna White Label`
       },
       {
         image:
-          "https://images.unsplash.com/photo-1591348122449-02525d70379b?ixlib=rb-1.2.1",
-          info: `boricanna_2`
+          Boricanna_logo_gold_nw,
+          info: `boricanna`
           
       },
       {
         image:
-          "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?ixlib=rb-1.2.1",
-          info: `boricanna_3`
+          Boricanna_streetSign,
+          info: `Facade`
       },
       {
         image:
-        "https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?ixlib=rb-1.2.1",
+        Boricanna_webBanner,
         info: `boricanna_4`
       }
 ] //throw this in the back end when its up****
+
+
 
 const Boricanna = () => {
     return (
