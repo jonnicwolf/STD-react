@@ -19,8 +19,7 @@ const slides = [
       {
         image:
           Boricanna_logo_gold_nw,
-          info: `boricanna`
-          
+          info: `boricanna`          
       },
       {
         image:
