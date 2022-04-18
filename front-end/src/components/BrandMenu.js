@@ -33,7 +33,7 @@ const BrandMenu = () => {
 
             <li>
                 <a href="https://kurvana.com/" className='brand-menu-button'>
-                    <img src={Dosist}/>                    
+                    <img src={Kurvana}/>                    
                 </a>
             </li>
 
