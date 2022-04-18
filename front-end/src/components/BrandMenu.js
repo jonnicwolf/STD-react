@@ -29,89 +29,48 @@ const BrandMenu = () => {
                 <a href="https://dosist.com/" className='brand-menu-button'>
                     <img src={Dosist}/>                    
                 </a>
-                {/* <Link 
-                    to={{pathname: 'https://dosist.com/'}}
-                    className="brand-menu-button">
-                    <img src={Dosist} alt="dosist"/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https://kurvana.com/" className='brand-menu-button'>
                     <img src={Dosist}/>                    
                 </a>
-                {/* <Link
-                    to={{pathname: 'https://kurvana.com/'}}
-                   
-                    className="brand-menu-button">
-                    <img src={Kurvana} alt="Kurvana"/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https://www.houseplant.com/" className='brand-menu-button'>
                     <img src={Houseplant} alt=""/>
                 </a>
-                {/* <Link 
-                    to= {{pathname: 'https://www.houseplant.com/'}}
-                    className="brand-menu-button">
-                    <img src={Houseplant} alt="Houseplant"/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https://levelexperience.com/" className='brand-menu-button'>
                     <img src={Level} alt=""/>
                 </a>
-                {/* <Link 
-                    to={{pathname: 'https://levelexperience.com/'}}
-                    className="brand-menu-button">
-                    <img src={Level} alt='Level'/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https://www.lowellfarms.com/cannabis" className='brand-menu-button'>
                     <img src={LowellFarms} alt=""/>
                 </a>
-                {/* <Link
-                    to={{pathname: 'https://www.lowellfarms.com/cannabis'}}
-                    className="brand-menu-button">
-                    <img src={LowellFarms} alt="Lowell Farms"/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https:.//www.marleynatural.com/" className='brand-menu-button'>
                     <img src={MarleyNatural} alt=""/>
                 </a>
-                {/* <Link 
-                    to={{pathname: 'https://www.marleynatural.com/'}}
-                    className="brand-menu-button">
-                    <img src={MarleyNatural} alt="Marley Natural"/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https://www.monogramcompany.com/" className='brand-menu-button'>
                     <img src={Monogram} alt=""/>
                 </a>
-                {/* <Link 
-                    to={{pathname: 'https://www.monogramcompany.com/'}}
-                    className="brand-menu-button">
-                    <img src={Monogram} alt="Monogram"/>
-                </Link> */}
             </li>
 
             <li>
                 <a href="https://williesreserve.com/" className='brand-menu-button'>
                     <img src={WillysReserve} alt=""/>
                 </a>
-                {/* <Link 
-                    to={{pathname: 'https://williesreserve.com/'}}
-                    className="brand-menu-button">
-                    <img src={WillysReserve} alt="Willy's Reserve"/>
-                </Link> */}
             </li>
         </ul>            
     </div>
