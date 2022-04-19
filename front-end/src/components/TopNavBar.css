@@ -7,5 +7,11 @@
 
 .topnav-child-logotray {
     align-self: flex-start;
+    border: 3px solid red;
 }
 
+
+.topnav-child-button{
+    border: 3px solid green;
+    font-size: 30px;
+}

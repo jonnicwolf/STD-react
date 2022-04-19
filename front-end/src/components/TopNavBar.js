@@ -32,32 +32,32 @@ const TopNavBar = ()=> {
           <LogoTray />
         </li>
         <li className='topnav-child'>            
-          <Link to='/boricanna' className='topnav-button'>
+          <Link to='/boricanna' className='topnav-child-button'>
             Boricanna
           </Link>          
         </li>
         <li className='topnav-child'>            
-          <Link to='/brands' className='topnav-button'>
+          <Link to='/brands' className='topnav-child-button'>
             Brands
           </Link>          
         </li>
         <li className='topnav-child'>            
-          <Link to='/sustainability' className='topnav-button'>
+          <Link to='/sustainability' className='topnav-child-button'>
             Sustainability
           </Link>          
         </li>
         <li className='topnav-child'>            
-          <Link to='/company' className='topnav-button'>
+          <Link to='/company' className='topnav-child-button'>
             Company
           </Link>          
         </li>
         <li className='topnav-child'>            
-          <Link to='/careers' className='topnav-button'>
+          <Link to='/careers' className='topnav-child-button'>
             Careers
           </Link>          
         </li>                        
         <li className='topnav-child'>            
-          <Link to='/cart' className='topnav-button'>
+          <Link to='/cart' className='topnav-child-button'>
             🛒
           </Link>          
         </li>                        
