@@ -35,13 +35,14 @@ const items = [
   }
 ]
 const Cart = () => {
+  let subTotal = (items)=>items.reduce((subTotal, item)=>subTotal+item.price,0)
   
   return (
     <div>
         <h1>Shopping Cart</h1>
         <CartComp items={items}/>
         {/* add subtotal */}
-        <div>${items.reduce((acc,curVal)=> acc.price + curVal.price)}.00</div>
+        <div>${subTotal(items)}.00</div>
         <button>Checkout</button>
     </div>
   )
