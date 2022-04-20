@@ -8,4 +8,55 @@
 
 .brand-menu-button {    
     text-decoration: none;
+    
+}
+
+.brand-menu-img {
+    
+    border: 10px solid aqua;
+}
+
+#boricanna {
+    height:650px;
+    width:650px;
+}
+
+#dosist {
+    height: 680px;
+    width: 680px;
+} 
+
+#kurvana {
+    height:650px;
+    width:650px;
+}
+
+#houseplant{
+    height:750px;
+    width:750px;
+}
+
+#level{
+    height:350px;
+    width:650px;
+}
+
+#lowellfarms{
+    height:550px;
+    width:550px;
+}
+
+#marleynatural{
+    height: 300px;
+    width: 700px;
+}
+
+#monogram{
+    height:500px;
+    width:500px;
+}
+
+#willysreserve{
+    height:600px;
+    width:600px;
 }
