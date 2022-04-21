@@ -1,0 +1,10 @@
+#cart-list{
+    list-style-type: none;
+}
+.cart-item{
+    border: 3px solid red; 
+}
+
+.cart-item-quantityGroup{
+    list-style-type: none;
+}
