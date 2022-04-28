@@ -1,5 +1,6 @@
 // This is your test secret API key.
-import testKey from "./stripeAPIkey.js"
+
+const testKey = require('./stripeAPIkey')
 const stripe = require('stripe')(testKey);
 const express = require('express');
 const app = express();
