@@ -1,0 +1,3 @@
+const testKey = 'sk_test_51KsiJZKxydpyoEYUW94P3ip5Y130J7jqavyFuqrgZon7Cx7COGbnARH8WDzzLulkYkU9wgVoOqrQjQNoq4fNUEG200yCviVzGs'
+
+export default testKey;
