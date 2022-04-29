@@ -2,8 +2,7 @@
 
 INSERT INTO smokes (
     size, strain, brand, price
-) 
-VALUES     
+) VALUES     
     ('¾','Blue Dream','Boricanna',7),
     ('¾','Girl Scout Cookies','Boricanna',5),
     ('King','Biscotti','Boricanna',12),
