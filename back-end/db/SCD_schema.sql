@@ -19,11 +19,11 @@ CREATE TABLE tokes (
     brand TEXT,
     material TEXT,
     price NUMERIC,
-)
+);
 
 CREATE TABLE accessories (
     id SERIAL PRIMARY KEY,
     size TEXT,
     brand TEXT,
     price NUMERIC,
-)
+);

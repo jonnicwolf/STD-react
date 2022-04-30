@@ -9,9 +9,9 @@ const {
     PG_USER,
 } = process.env;
 
-const cn - DATABASE_URL
+const cn = DATABASE_URL
     ? {
-        connectionSTring: DATAVASE_URL,
+        connectionSTring: DATABASE_URL,
         max: 0,
         ssl: {
             rejectUnauthorized: false,
