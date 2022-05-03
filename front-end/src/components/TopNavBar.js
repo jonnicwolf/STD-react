@@ -28,6 +28,16 @@ const TopNavBar = ()=> {
   return (
     <nav className='topnav-masterContainer'>            
       <ul className='topnav-container'>                
+        <li className='topnav-child'>
+          <Link to='/products' className='topnav-child-button'>
+            Products
+          </Link>
+        </li>        
+        <li className='topnav-child'>            
+          <Link to='/brands' className='topnav-child-button'>
+            Brands
+          </Link>          
+        </li>
         <li className='topnav-child-logotray'>            
           <LogoTray />
         </li>
@@ -36,21 +46,18 @@ const TopNavBar = ()=> {
             Boricanna
           </Link>          
         </li>
-        <li className='topnav-child'>            
-          <Link to='/brands' className='topnav-child-button'>
-            Brands
-          </Link>          
-        </li>
-        <li className='topnav-child'>            
-          <Link to='/sustainability' className='topnav-child-button'>
-            Sustainability
-          </Link>          
-        </li>
-        <li className='topnav-child'>            
-          <Link to='/company' className='topnav-child-button'>
-            Company
-          </Link>          
-        </li>
+
+          {/* <li className='topnav-child'>            
+            <Link to='/sustainability' className='topnav-child-button'>
+              Sustainability
+            </Link>          
+          </li> */}
+          {/* <li className='topnav-child'>            
+            <Link to='/company' className='topnav-child-button'>
+              Company
+            </Link>          
+          </li> */}
+
         <li className='topnav-child'>            
           <Link to='/careers' className='topnav-child-button'>
             Careers
