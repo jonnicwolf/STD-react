@@ -11,6 +11,7 @@ CREATE TABLE smokes (
     strain TEXT,
     brand TEXT,
     price NUMERIC,
+    img TEXT,
 );
 
 CREATE TABLE tokes (
@@ -19,6 +20,7 @@ CREATE TABLE tokes (
     brand TEXT,
     material TEXT,
     price NUMERIC,
+    img TEXT,
 );
 
 CREATE TABLE accessories (
@@ -26,4 +28,5 @@ CREATE TABLE accessories (
     size TEXT,
     brand TEXT,
     price NUMERIC,
+    img TEXT,
 );
