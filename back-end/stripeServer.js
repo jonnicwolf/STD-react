@@ -60,7 +60,7 @@ app.post('/create-payment-intent', async (request, response)=>{
     clientSecret: paymentIntent.client_secret,
   })
 })
-
+const testKey = require('./stripeAPIkey')
 const process = require('dotenv').config()
 const PORT = process.env.PORT
 app.listen(PORT,()=> `💵 Listening on port ${PORT}`)
