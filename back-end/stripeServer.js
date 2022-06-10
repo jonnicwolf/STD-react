@@ -42,7 +42,7 @@ app.use(express.static('public'));
 app.use(express.json());
 
 
-//items is an array
+
 const calculateOderAmount = (items)=> items.reduce((sum, curVal)=> sum + curVal);
 app.post('/create-payment-intent', async (request, response)=>{
   const {items} = request.body;
@@ -60,7 +60,7 @@ app.post('/create-payment-intent', async (request, response)=>{
     clientSecret: paymentIntent.client_secret,
   })
 })
-const testKey = require('./stripeAPIkey')
+const testKey = require('./stripe')
 const process = require('dotenv').config()
 const PORT = process.env.PORT
 app.listen(PORT,()=> `💵 Listening on port ${PORT}`)
