@@ -8,7 +8,7 @@ const getAllProducts = async () => {
     catch (e) {
         return e;
     };
-}
+};
 
 const getProduct = async (itemType) => {
     try {
@@ -17,8 +17,8 @@ const getProduct = async (itemType) => {
     }
     catch (e) {
         return e;
-    }
-}
+    };
+};
 
 module.exports = {
     getAllProducts,

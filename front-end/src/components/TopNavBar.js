@@ -35,7 +35,7 @@ const TopNavBar = ()=> {
         </li>        
         <li className='topnav-child'>            
           <Link to='/brands' className='topnav-child-button'>
-            Brands
+            Our Brands
           </Link>          
         </li>
         <li className='topnav-child-logotray'>            
@@ -59,8 +59,8 @@ const TopNavBar = ()=> {
           </li> */}
 
         <li className='topnav-child'>            
-          <Link to='/careers' className='topnav-child-button'>
-            Careers
+          <Link to='/account' className='topnav-child-button'>
+            Account
           </Link>          
         </li>                        
         <li className='topnav-child'>            

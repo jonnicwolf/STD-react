@@ -1,8 +1,7 @@
 const pgp = require('pg-promise');
 require('dotenv').config();
 
-const {
-    DATABASE_URL,
+const {    
     PG_HOST,
     PG_PORT,
     PG_DATABASE,

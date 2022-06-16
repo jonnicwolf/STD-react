@@ -37,7 +37,8 @@ import './stripe_app.css';
                     <Elements option={options} stripe={stripePromise}>
                         <CheckoutForm/>
                     </Elements>
-                )}
+                )
+            }
         </div>
      )
  }
