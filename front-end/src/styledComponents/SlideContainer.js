@@ -16,7 +16,8 @@ export const SlideImage = styled.img`
   align-self: center;
 `;
 
-export const SlideInfo = styled.span`
-  width: 400px;
+export const SlideInfo = styled.p`  
+  width: 900px;
   font-size: 20px;
+  
 `;
