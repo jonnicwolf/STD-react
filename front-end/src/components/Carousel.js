@@ -18,14 +18,14 @@ const Carousel = ({ slides })=> {
             {slides.map((slide, index) => {                
                 return (
                     <div key={index}>
-                        <span className='carouselSlides'>
+                        <span className='slideImage'>
                             {index === current && <SlideImage src={slide.image} alt=''/>}
                         </span>
-                        <span key={index}>
+                        <span key={index} className='slideInfo'>
                             {index === current && <span>{slide.info}</span>}                        
                         </span>                                                 
                     </div>
-                );
+                )
             })}
         </StyledSlider>
     );
