@@ -7,8 +7,14 @@
 }
 
 .extras-item {
-    height: 30px;
-    width: 30px;
+    top: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.extras-info {
+    height: 50px;
+    width: 50px;
 }
 
 

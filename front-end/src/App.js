@@ -36,9 +36,6 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>}/>
 
-        {/* Extras */}
-        
-
         {/* TopNav */}
         <Route path='/boricanna' element={<Boricanna/>}/>
         <Route path ='/brands' element={<Brands/>}/>

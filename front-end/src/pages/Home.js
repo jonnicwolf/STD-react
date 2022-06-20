@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel.js';
 import Extras from '../components/Extras';
+import { ButtonMover } from '../styledComponents/ButtonMover.js';
 
 /*.########..##.....##..#######..########..#######.............###.....######...######..########.########..######.
   .##.....##.##.....##.##.....##....##....##.....##...........##.##...##....##.##....##.##..........##....##....##
@@ -33,12 +34,15 @@ const items  = [
 
 const Home=()=>{
     return (
-        <div>            
-            Home page
-            <Carousel slides={slides}/>
-            <Link to='/flavors'>
-                <button>Buy Now</button>
-            </Link>
+        <div>                        
+            <ButtonMover>
+                <div>
+                    <Carousel slides={slides}/>
+                    <Link to='/flavors'>
+                    {/* <button>Buy Now</button> */}
+                    </Link>
+                </div>
+            </ButtonMover>
             <Extras items={items}/>
         </div>
     );

@@ -7,17 +7,15 @@
 }
 
 .topnav-child-logotray {
-    align-self: flex-start;
-    border: 3px solid red;
+    align-self: flex-start;    
 }
 
 
 .topnav-child{
-    padding-top: 11px;
+    padding-top: 20px;
     
 }
-.topnav-child-button{
-    border: 3px solid green;
+.topnav-child-button{    
     font-size: 25px;
     text-decoration-line: none;
 }

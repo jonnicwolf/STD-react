@@ -11,7 +11,7 @@ const Extras = ({items}) => {
                 <li className='extras-child' key={idx}>
                   <Link to='/extras'>
                     <img className='extras-item' src={item.item} alt=""/>
-                    <p>{item.info}</p>                  
+                    <p className='extras-info'>{item.info}</p>                  
                   </Link>
                 </li>
             ))}

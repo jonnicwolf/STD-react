@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 
-export const StyledSlider = styled.div`
-  position: relative;
+export const StyledSlider = styled.div`  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,6 +17,5 @@ export const SlideImage = styled.img`
 
 export const SlideInfo = styled.p`  
   width: 900px;
-  font-size: 20px;
-  
+  font-size: 20px;  
 `;
