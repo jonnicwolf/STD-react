@@ -12,25 +12,27 @@ const Carousel = ({ slides })=> {
     const slideLeft = ()=> {setCurrent(current === 0 ? len-1 : current - 1)};
 
     return (
-        <StyledSlider>
+        <div>
             <FaHandPointLeft className='leftArrow' onClick={slideLeft}/>
             <FaHandPointRight className='rightArrow' onClick={slideRight}/>
-            {slides.map((slide, index) => {                
-                return (
-                    <div key={index}>
-                        <span className='slideImage'>
-                            {index === current && <SlideImage src={slide.image} alt=''/>}
-                        </span>
-                        <br/>
-                        <SlideInfo>
-                            <p key={index} className='slideInfo'>
-                                {index === current && <span>{slide.info}</span>}
-                            </p>   
-                        </SlideInfo>                                              
-                    </div>
-                )
-            })}
-        </StyledSlider>
+            <StyledSlider>
+                {slides.map((slide, index) => {                
+                    return (
+                        <div key={index}>
+                            <span className='slideImage'>
+                                {index === current && <SlideImage src={slide.image} alt=''/>}
+                            </span>
+                            <br/>
+                            <SlideInfo>
+                                <p key={index} className='slideInfo'>
+                                    {index === current && <span>{slide.info}</span>}
+                                </p>   
+                            </SlideInfo>                                              
+                        </div>
+                    )
+                })}
+            </StyledSlider>
+        </div>
     );
 };
 

@@ -46,18 +46,6 @@ const TopNavBar = ()=> {
             Boricanna
           </Link>          
         </li>
-
-          {/* <li className='topnav-child'>            
-            <Link to='/sustainability' className='topnav-child-button'>
-              Sustainability
-            </Link>          
-          </li> */}
-          {/* <li className='topnav-child'>            
-            <Link to='/company' className='topnav-child-button'>
-              Company
-            </Link>          
-          </li> */}
-
         <li className='topnav-child'>            
           <Link to='/account' className='topnav-child-button'>
             Account
