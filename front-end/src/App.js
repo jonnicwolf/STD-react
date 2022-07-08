@@ -26,7 +26,8 @@ import Boricanna from './pages/Boricanna.js';
 import Sustainability from './pages/Sustainability.js';
 
 import Account from './pages/Account.js';
-import Cart from './pages/Cart';
+
+import Checkout from './pages/Checkout';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
         <Route path='/account' element={<Account/>}/>
 
         {/* Cart */}
-        <Route path='/cart' element={<Cart/>}/>
+        {/* <Route path='/cart' element={<Cart/>}/> */}
+        <Route path='/cart' element={<Checkout/>}/>
       </Routes>
 
     </div>
