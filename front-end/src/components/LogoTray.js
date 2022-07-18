@@ -17,43 +17,23 @@ const LogoTray=()=> {
         <div>
             <ul className='logo-container'>
                 <li>
-                    <div className='logo-cloudBackground'>
-                        <div class="cloud large cloud-1">
-                            <div></div><div></div><div></div><div></div>
+                    <div className='logo-cloudBackground'>                        
+                        {/* to be cloud 1 */}
+                        <div class="cloud tiny cloud-4">
+                            <div></div><div></div><div></div><div></div>                            
                         </div>
-                        <div class="cloud normal cloud-2">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
+                        {/* to be cloud 1 */}
                         <div class="cloud small cloud-3">
                             <div></div><div></div><div></div><div></div>
                         </div>
-                        <div class="cloud tiny cloud-4">
+                        {/* cloud 1 */}
+                        <div class="cloud normal cloud-3">
                             <div></div><div></div><div></div><div></div>
                         </div>
-                        <div class="cloud large cloud-5">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
-                        <div class="cloud normal cloud-6">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
-                        <div class="cloud small cloud-7">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
-                        <div class="cloud tiny cloud-8">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
-                        <div class="cloud small cloud-9">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
+                        {/* cloud 2 */}
                         <div class="cloud normal cloud-10">
                             <div></div><div></div><div></div><div></div>
-                        </div>
-                        <div class="cloud tiny cloud-11">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
-                        <div class="cloud small cloud-12">
-                            <div></div><div></div><div></div><div></div>
-                        </div>
+                        </div>                        
                     </div>
                 </li> 
 
