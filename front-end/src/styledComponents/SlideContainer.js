@@ -12,7 +12,6 @@ export const SlideImage = styled.img`
   width: 700px;
   height: 400px;
   object-fit: cover;
-  align-self: center;
 `;
 
 export const SlideInfo = styled.p`  

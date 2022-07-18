@@ -1,16 +1,23 @@
 import {Elements} from '@stripe/react-stripe-js'
 import {loadStripe} from '@stripe/stripe-js';
-// import {useStripe, useElements, PaymentElement} from '@stripe/react-stripe-js';
+import {useStripe, useElements, PaymentElement} from '@stripe/react-stripe-js';
 import PaymentForm from '../components/PaymentForm';
 
-const PUBLIC_KEY = 'pk_test_51KsiJZKxydpyoEYUoMnTqDU42i1oAtXLKiHhnKgRb5AHx4nUT08wZCUJT3sds4zVQ8od0oAFG3iZ1CwN4opfqG3y009yVnK9YC'
-const stripePromise = loadStripe(PUBLIC_KEY)
+// const PUBLIC_KEY = 'pk_test_51KsiJZKxydpyoEYUoMnTqDU42i1oAtXLKiHhnKgRb5AHx4nUT08wZCUJT3sds4zVQ8od0oAFG3iZ1CwN4opfqG3y009yVnK9YC'
+// const stripePromise = loadStripe(PUBLIC_KEY)
 
 function Checkout () {
-    <Elements stripe={stripePromise}>
-        <p>yoyo</p>
-        <PaymentForm />
-    </Elements>
+    const PUBLIC_KEY = 'pk_test_51KsiJZKxydpyoEYUoMnTqDU42i1oAtXLKiHhnKgRb5AHx4nUT08wZCUJT3sds4zVQ8od0oAFG3iZ1CwN4opfqG3y009yVnK9YC'
+    const stripePromise = loadStripe(PUBLIC_KEY)
+    return (
+        // <p>yoiyoi</p>
+        <>
+            <Elements stripe={stripePromise}>
+                <p>yoyo</p>
+                <PaymentForm />
+            </Elements>
+        </>
+    )
 };
 
 export default Checkout ;

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel.js';
 import Extras from '../components/Extras';
 import { ButtonMover } from '../styledComponents/ButtonMover.js';
+import './Home.css'
 
 /*.########..##.....##..#######..########..#######.............###.....######...######..########.########..######.
   .##.....##.##.....##.##.....##....##....##.....##...........##.##...##....##.##....##.##..........##....##....##
@@ -34,7 +35,7 @@ const items  = [
 
 const Home=()=>{
     return (
-        <div>                        
+        <div className='home-page-parent'>                        
             <ButtonMover>
                 <div>
                     <Carousel slides={slides}/>
