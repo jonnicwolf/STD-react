@@ -4,22 +4,20 @@
     background-color: #3ED6FE;
 }
 
-.topnav-container {   
-    
+.topnav-container {       
     margin: 0px;     
     display: flex;
     flex-direction: flex-start;
     list-style-type: none;
-    justify-content: space-evenly;
     text-decoration-line: none;
 }
 
-.topnav-child-logotray {  
-      
-    align-self: flex-start;    
+.topnav-child-logotray {
+    width: 235px;
 }
 
 .topnav-child{
+    flex-grow: 1;
     padding-top: 20px;    
 }
 
