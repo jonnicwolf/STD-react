@@ -7,7 +7,7 @@
 .topnav-container {       
     margin: 0px;     
     display: flex;
-    flex-direction: flex-start;
+    justify-content: space-between;
     list-style-type: none;
     text-decoration-line: none;
 }
@@ -16,8 +16,7 @@
     width: 235px;
 }
 
-.topnav-child{
-    flex-grow: 1;
+.topnav-child{    
     padding-top: 20px;    
 }
 
@@ -30,3 +29,15 @@
     text-decoration-line: none;
 }
 
+#products-ourBrands {
+    display: flex;
+    flex-direction: row;    
+    /* justify-content: space-evenly; */
+    list-style-type: none;
+}
+
+#boricanna-account-cart {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
