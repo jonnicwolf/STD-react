@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lato:wght@100;400&display=swap');
 .topnav-masterContainer {        
     padding-bottom: 30px;             
     background-color: #3ED6FE;
@@ -7,7 +7,7 @@
 .topnav-container {       
     margin: 0px;     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
     text-decoration-line: none;    
 }
@@ -17,17 +17,27 @@
 }
 
 .topnav-child{    
-    padding-top: 20px;  
+    padding-top: 10px;  
+    height: 50px;
       
 }
 
 .topnav-child-button{  
     font-family: 'Hind Siliguri', sans-serif;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif;
     color: white; 
-    font-weight: bolder;
+    font-weight: light;
     font-size: 25px;
     text-decoration-line: none;        
+    
+}
+
+.topnav-child-button:hover {
+    background-color: white;
+    background-size: 500px;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;    
 }
 
 #products-ourBrands {
@@ -35,7 +45,6 @@
     flex-direction: row;    
     gap: 20px;    
     list-style-type: none;
-    
 }
 
 #boricanna-account-cart {
