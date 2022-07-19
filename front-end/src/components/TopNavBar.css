@@ -7,37 +7,40 @@
 .topnav-container {       
     margin: 0px;     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
-    text-decoration-line: none;
+    text-decoration-line: none;    
 }
 
 .topnav-child-logotray {
-    width: 235px;
+    width: 235px;    
 }
 
 .topnav-child{    
-    padding-top: 20px;    
+    padding-top: 20px;  
+      
 }
 
 .topnav-child-button{  
     font-family: 'Hind Siliguri', sans-serif;
     font-family: 'Lato', sans-serif; 
     color: white; 
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 25px;
-    text-decoration-line: none;
+    text-decoration-line: none;        
 }
 
 #products-ourBrands {
     display: flex;
     flex-direction: row;    
-    /* justify-content: space-evenly; */
+    gap: 20px;    
     list-style-type: none;
+    
 }
 
 #boricanna-account-cart {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    gap: 20px;
+    list-style-type: none;    
 }
