@@ -39,8 +39,7 @@
 }
 
 #products-ourBrands {
-    display: flex;
-    flex-wrap: nowrap;
+    display: flex;    
     flex-direction: row;    
     gap: 20px;    
     list-style-type: none;
@@ -52,4 +51,5 @@
     flex-direction: row;
     gap: 20px;
     list-style-type: none;    
+    margin-top: 12px;
 }
