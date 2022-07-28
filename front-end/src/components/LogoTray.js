@@ -18,8 +18,7 @@ const LogoTray=()=> {
     return (        
         <ul className='logo-container'>
             <li>
-                <div 
-                    className='logo-cloudBackground'>                        
+                <div className='logo-cloudBackground' style={{display: hover ? 'none' : 'block'}}>                        
                     <div class="cloud tiny cloud-4">
                         <div></div><div></div><div></div><div></div>                            
                     </div>
@@ -43,16 +42,12 @@ const LogoTray=()=> {
                         onMouseOut={()=>setHover(false)}>
                         <Link to='/' className='logo-Link'>
                                 <img 
-                                    className='logo-img-name' 
+                                    
+                                    className={hover ? 'logo-img-name-hover' : 'logo-img-name'}
                                     src={hover ? SCD_name_white : SCD_name} 
                                     alt=""/>                            
                         </Link>
-                    </li>     
-                    {/* <li className='logo-child'>
-                        <Link to='/' className='logo-Link-hover'>
-                                <img className='logo-img-name' src={SCD_name_white} alt=""/>                            
-                        </Link>
-                    </li>      */}
+                    </li>                         
 
                     <li className='logo-child'>
                         <Link to='/'className='logo-Link'>

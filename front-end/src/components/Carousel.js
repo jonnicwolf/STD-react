@@ -13,7 +13,8 @@ const Carousel = ({ slides })=> {
 
     return (
         <div>
-            <FaHandPointLeft className='leftArrow' onClick={slideLeft}/>
+            <FontAwesomeIcon icon="fa-solid fa-hand-point-right" />
+            {/* <FaHandPointLeft className='leftArrow' onClick={slideLeft}/> */}
             <FaHandPointRight className='rightArrow' onClick={slideRight}/>
             <StyledSlider>
                 {slides.map((slide, index) => {                
