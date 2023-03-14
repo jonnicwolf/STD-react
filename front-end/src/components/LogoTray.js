@@ -30,7 +30,7 @@ const LogoTray=()=> {
                     </div>
                     <div class="cloud normal cloud-10">
                         <div></div><div></div><div></div><div></div>
-                    </div>                        
+                    </div>
                 </div>
             </li> 
 
