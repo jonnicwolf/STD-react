@@ -45,7 +45,7 @@ const LogoTray=()=> {
                                     
                                     className={hover ? 'logo-img-name-hover' : 'logo-img-name'}
                                     src={hover ? SCD_name_white : SCD_name} 
-                                    alt=""/>                            
+                                    alt=""/>
                         </Link>
                     </li>                         
 

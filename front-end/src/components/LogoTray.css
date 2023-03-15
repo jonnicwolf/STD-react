@@ -27,7 +27,7 @@
     left: 30%;
     transform: translate(-50%, -50%);
     height: 50px;
-    width: 10px;  
+    width: 10px;
 }
 
 .logo-img-name {
@@ -36,7 +36,7 @@
     left: 30%;
     transform: translate(-50%, -50%);
     height: 50px;
-    width: 240px;    
+    width: 240px;
 }
   
 .cloud {
@@ -48,9 +48,9 @@
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    position: relative;    
-    margin: 20px 20px 10px 2050px ;    
-    width: 54px;    
+    position: relative;
+    margin: 20px 20px 10px 2050px ;
+    width: 54px;
     height: 5px;
     background: #f7e7eb;
 }
@@ -58,7 +58,7 @@
     -moz-transform: scale(0.35);
     -ms-transform: scale(0.35);
     -webkit-transform: scale(0.35);
-    transform: scale(0.35);    
+    transform: scale(0.35);
 }
 .cloud.small {
     -moz-transform: scale(1, 1);
@@ -85,7 +85,7 @@
     position: absolute;
     border-radius: 50%;
     width: 12px;
-    height: 12px;    
+    height: 12px;
     left: -3px;
     bottom: 0;
     background: #fafbf0;
@@ -96,7 +96,7 @@
     -ms-transform: scale(1.6, 1.6);
     -webkit-transform: scale(1.6, 1.6);
     transform: scale(1.6, 1.6);
-    margin: 0 0 4px 13px;    
+    margin: 0 0 4px 13px;
     z-index: 9;
 }
 .cloud div:first-child + div + div {
@@ -249,6 +249,3 @@
     animation-duration: 83s;
     margin-left: 51%;
 } */
-
-
-
